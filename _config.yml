@@ -1,0 +1,44 @@
+title: Stanford Robotics Seminar
+baseurl: "/robotics_seminar" # the subpath of your site, e.g. /blog
+url: "https://stanfordasl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  - talks
+
+gems:
+  - jekyll-font-awesome-sass
+
+font-awesome:
+  assets: true
+
+### Below are options you are likely to modify ###
+
+displayed-quarters:
+  - Spring 2024
+
+archived-quarters:
+  - Winter 2024
+  - Fall 2023
+  - Spring 2023
+  - Winter 2023
+  - Fall 2022
+  - Spring 2022
+  - Winter 2022
+  - Winter 2020
+  - Fall 2019
+  - Spring 2019
+  - Winter 2019
+  - Fall 2018
+  - Winter 2018
+  - Spring 2018
+  - Fall 2017
+
+current-syllabus: "Syllabus_AA289_sp2024.pdf"
+
+##########

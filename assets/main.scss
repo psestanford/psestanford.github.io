@@ -1,0 +1,169 @@
+---
+---
+@import "minima";
+
+.wrapper {
+  max-width: calc(1200px - (30px * 2));
+}
+
+.site-title-logo {
+  max-width: 50px;
+  float: left;
+  padding: 15px;
+}
+
+.site-header .wrapper {
+  vertical-align: bottom;
+  position: relative;
+}
+
+.site-title {
+  position: absolute;
+  bottom: 0;
+}
+
+.site-nav {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}
+
+.talk-abstract {
+
+}
+
+.talk-abstract-content {
+  padding-top: 20px;
+}
+
+.quarter-table {
+  margin-bottom: 50px;
+}
+
+.quarter-header {
+  // font-family: 'Source Sans Pro', sans-serif;
+}
+
+.talk-abstract-content > p {
+  text-align: justify;
+}
+
+.talk-speaker {
+  min-width: 150px;
+}
+
+.talk-date {
+  min-width: 80px;
+}
+
+.profile-row {
+  margin-bottom: 40px;
+}
+
+.profile {
+  text-align: center;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  border: 3px solid #FFF;
+  box-shadow: 0 0 7px 0px #AAA;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.talk-title {
+  position: relative;
+  padding-right: 35px;
+}
+
+.arrow {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-color: #3f3f3f;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.sponsorslist
+{
+     text-align: center;
+     padding-top: 40px;
+     padding-bottom: 40px;
+}
+
+.sponsor
+{
+     display: inline-block;
+     max-width: 400px;
+     vertical-align: top;
+     padding-left: 30px;
+     padding-right: 30px;
+}
+
+@media screen and (max-width: 600px) 
+{
+     .sponsor
+     {
+          max-width: 100%;
+     }
+}
+
+.youtube {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; 
+}
+
+.alert {
+  padding: 20px;
+  background-color: #780911;
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
